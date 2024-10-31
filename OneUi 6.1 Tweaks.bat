@@ -5,12 +5,6 @@
 echo Checking connected devices
 adb devices
 
-echo Disable HDR
-adb shell settings put global are_user_disabled_hdr_formats_allowed 0
-adb shell settings put global user_disabled_hdr_formats 1,2,3,4
-adb shell settings put system hdr_effect 0
-adb shell settings put system hdr_effect_intensity 0
-
 echo Dim Screen, Disable Direct Share, Smart Capture and Quickshare
 adb shell settings put system dim_screen 1
 adb shell settings put system direct_share 0
