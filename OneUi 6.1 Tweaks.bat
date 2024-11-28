@@ -50,7 +50,7 @@ echo Improving Power Management on Phones
 adb shell settings put global sem_enhanced_cpu_responsiveness 0
 adb shell settings put global enhanced_processing 0
 adb shell settings put global app_standby_enabled 1
-adb shell settings put global adaptive_battery_management_enabled 0
+adb shell settings put global adaptive_battery_management_enabled 1
 adb shell settings put global app_restriction_enabled true
 adb shell settings put global automatic_power_save_mode 0
 
